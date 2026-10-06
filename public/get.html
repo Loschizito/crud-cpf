@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - GET</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="post.html">Cadastrar</a>
+        <a href="get.html">Listar</a>
+        <a href="put.html">Atualizar</a>
+        <a href="delete.html">Excluir</a>
+    </nav>
+    <main>
+        <h1>Dados Cadastrais - GET</h1>
+        <form id="form-busca" class="busca">
+            <input type="text" id="cpfBusca" placeholder="Buscar por CPF">
+            <button type="submit">Buscar</button>
+            <button type="button" id="limpar">Mostrar todos</button>
+        </form>
+        <p id="mensagem"></p>
+        <div class="tabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>CPF</th>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>E-mail</th>
+                        <th>Idade</th>
+                        <th>Telefone</th>
+                        <th>Rua</th>
+                        <th>Bairro</th>
+                        <th>Cidade</th>
+                        <th>Estado</th>
+                        <th>RG</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-corpo"></tbody>
+            </table>
+        </div>
+    </main>
+    <script src="get/get.js"></script>
+</body>
+</html>

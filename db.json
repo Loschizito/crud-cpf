@@ -1,0 +1,32 @@
+{
+  "pessoas": [
+    {
+      "id": 2,
+      "cpf": "111.222.333-44",
+      "nome": "Pedro",
+      "sobrenome": "Souza",
+      "email": "pedro.souza@email.com",
+      "idade": 30,
+      "telefone": "(11) 97777-2222",
+      "rua": "Av. Brasil, 250",
+      "bairro": "Vila Oliveira",
+      "cidade": "Mogi das Cruzes",
+      "estado": "SP",
+      "rg": "23.456.789-0"
+    },
+    {
+      "id": 3,
+      "cpf": "999.888.777-66",
+      "nome": "Tiago",
+      "sobrenome": "Oliveira",
+      "email": "tiago.oliveira@email.com",
+      "idade": 70,
+      "telefone": "(11) 96666-3333",
+      "rua": "Rua São João, 45",
+      "bairro": "Brás Cubas",
+      "cidade": "Mogi das Cruzes",
+      "estado": "SP",
+      "rg": "34.567.890-1"
+    }
+  ]
+}

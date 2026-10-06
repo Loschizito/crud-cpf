@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - DELETE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="post.html">Cadastrar</a>
+        <a href="get.html">Listar</a>
+        <a href="put.html">Atualizar</a>
+        <a href="delete.html">Excluir</a>
+    </nav>
+    <main>
+        <h1>Excluir - DELETE</h1>
+        <form id="form-busca" class="busca">
+            <input type="text" id="cpfBusca" placeholder="Digite o CPF">
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="dados" class="dados"></div>
+        <button type="button" id="deletar" class="perigo" hidden>Excluir</button>
+        <p id="mensagem"></p>
+    </main>
+    <script src="delete/delete.js"></script>
+</body>
+</html>
